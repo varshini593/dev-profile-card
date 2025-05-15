@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dev Profile Card Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Dev Profile Card Generator</h1>
+    
+    <input type="text" id="name" placeholder="Enter your name" />
+    <input type="text" id="bio" placeholder="Enter a short bio" />
+    <input type="text" id="skills" placeholder="Enter skills (comma-separated)" />
+    
+    <button onclick="generateCard()">Generate Card</button>
+
+    <div id="card-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
